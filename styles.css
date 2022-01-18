@@ -125,7 +125,7 @@ main .princing-card .card {
   border-radius: 2px;
 }
 
-main .princing-card .card .description #submit {
+main .princing-card .card .description button {
   background-color: #ffce53;
   border: none;
   border-radius: 2px;
