@@ -1,0 +1,265 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+header img {
+  width: 100%;
+  height: auto;
+}
+
+header .pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+header .pages a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+  font-style: bold;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main .input-email {
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 75vmin;
+  max-width: 350px;
+  padding: 5px;
+}
+
+main .btn-email {
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
+  border-radius: 2px;
+  border: none;
+  background-color: #e9c46a;
+  font-weight: bold;
+}
+
+main .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .features img {
+  display: none;
+}
+
+main .features .title {
+  font-weight: bold;
+  text-align: center;
+}
+
+main .features .description {
+  text-align: center;
+  padding: 2vmin;
+}
+
+main .features .ft {
+  margin: 30px auto;
+}
+
+main .video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .video iframe {
+  width: 350px;
+  margin: 0 auto;
+  margin: 20px 0 20px 0;
+}
+
+main .princing-card .title {
+  font-weight: bold;
+  text-align: center;
+  background-color: #d4d4d4;
+  padding: 15px;
+}
+
+main .princing-card .card {
+  width: 300px;
+  margin: 10px auto;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+main .princing-card .card .description #submit {
+  background-color: #ffce53;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 15px;
+  margin: 30px auto 20px auto;
+  display: block;
+}
+
+main .princing-card .price {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  margin: 15px auto;
+}
+
+main .princing-card .details {
+  margin-top: 10px;
+}
+
+main .princing-card .details p {
+  text-align: center;
+  margin: 7px auto;
+}
+
+footer {
+  background-color: #dbd8d8;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-right: 30px;
+}
+
+footer ul li {
+  margin: 10px 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  text-align: right;
+  padding-bottom: 15px;
+  padding-right: 30px;
+}
+
+@media (min-width: 768px) {
+  header .nav-conatiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  header .nav-conatiner img {
+    width: 60%;
+    height: auto;
+  }
+  header .nav-conatiner .pages {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  header .nav-conatiner .pages a {
+    margin: 5px 7px;
+  }
+  main h1 {
+    margin-top: 30px;
+  }
+  main .features .icon {
+    display: inline;
+    width: 50px;
+    height: 60px;
+    margin: 0 0 0 50px;
+  }
+  main .features .ft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 30px 0;
+  }
+  main .features .ft .materials-details {
+    padding: 10px 0 0 40px;
+  }
+  main .features .ft .title {
+    text-align: left;
+    margin: 0;
+  }
+  main .features .ft .description {
+    text-align: left;
+    padding: 0;
+  }
+  main .video iframe {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    margin: 20px 0 20px 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  header .nav-conatiner img {
+    width: 40%;
+  }
+  header .nav-conatiner .pages {
+    margin: 0 0 0 250px;
+  }
+  header .nav-conatiner .pages a {
+    margin: 5px 100px;
+    font-size: 24px;
+  }
+  main .features {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .princing-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
